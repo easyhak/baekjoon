@@ -1,3 +1,7 @@
+# 현수막 / 14716.py
+# 출처: University > 충남대학교 > 생각하는 프로그래밍 대회  A번
+# 알고리즘 분류: 그래프 이론,그래프 탐색,너비 우선 탐색,깊이 우선 탐색
+
 import sys
 from collections import deque
 

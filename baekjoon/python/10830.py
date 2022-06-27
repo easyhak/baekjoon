@@ -5,6 +5,7 @@ matrix=[]
 for i in range(n):
     matrix.append(list(map(int,input().split())))
 
+# 행렬 곱셈
 def mul(matrix1, matrix2):
     result=[[0]*n for _ in range(n)]
     for i in range(n):
@@ -14,9 +15,12 @@ def mul(matrix1, matrix2):
             result[i][j]=result[i][j]%1000
     return result
 
+# 단위행렬 만들기
 ans=[[0]*n for _ in range(n)]
 for i in range(n):
     ans[i][i]=1
+    
+# 분할정복
 while b>0:
     if b%2!=0:
         ans=mul(ans,matrix)

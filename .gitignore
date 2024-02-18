@@ -1,5 +1,9 @@
 #=>vscode
 .vscode/*
-
+/baekjoon/java/.idea
+/baekjoon/java/out
+/.idea
 # 
 *.exe
+*.iml
+*.xml

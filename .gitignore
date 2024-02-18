@@ -3,6 +3,7 @@
 /baekjoon/java/.idea
 /baekjoon/java/out
 /.idea
+/out
 # 
 *.exe
 *.iml
